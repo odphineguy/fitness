@@ -16,102 +16,122 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     company: "Marketing Director, TechCorp",
-    quote: "Omar's holistic approach completely changed my relationship with fitness. I've lost 30 pounds and gained so much energy!"
+    quote: "Omar's holistic approach completely changed my relationship with fitness. I've lost 30 pounds and gained so much energy!",
+    image: "/testimonials/sarah-johnson.png"
   },
   {
     name: "Mike Chen",
     company: "Software Engineer, InnovateLab",
-    quote: "The nutrition guidance was eye-opening. I never realized how much my diet was holding me back until working with Omar."
+    quote: "The nutrition guidance was eye-opening. I never realized how much my diet was holding me back until working with Omar.",
+    image: "/testimonials/mike-chen.png"
   },
   {
     name: "Lisa Rodriguez",
     company: "Nurse, City General Hospital",
-    quote: "As a healthcare worker, I appreciate Omar's evidence-based approach. His programs are both effective and sustainable."
+    quote: "As a healthcare worker, I appreciate Omar's evidence-based approach. His programs are both effective and sustainable.",
+    image: "/testimonials/lisa-rodriguez.png"
   },
   {
     name: "David Thompson",
     company: "CEO, StartupXYZ",
-    quote: "Omar helped me build sustainable habits that fit my busy schedule. The results speak for themselves!"
+    quote: "Omar helped me build sustainable habits that fit my busy schedule. The results speak for themselves!",
+    image: "/testimonials/david-thompson.png"
   },
   {
     name: "Emily Watson",
     company: "Teacher, Lincoln High School",
-    quote: "I was struggling with energy levels and confidence. Omar's program transformed both my body and mindset."
+    quote: "I was struggling with energy levels and confidence. Omar's program transformed both my body and mindset.",
+    image: "/testimonials/emily-watson.png"
   },
   {
     name: "James Wilson",
     company: "Firefighter, Metro Fire Dept",
-    quote: "The strength training program Omar designed for me has improved my performance on the job significantly."
+    quote: "The strength training program Omar designed for me has improved my performance on the job significantly.",
+    image: "/testimonials/james-wilson.png"
   },
   {
     name: "Maria Garcia",
     company: "Entrepreneur, Fitness Studio",
-    quote: "Omar's business insights combined with his fitness expertise helped me scale my own fitness business."
+    quote: "Omar's business insights combined with his fitness expertise helped me scale my own fitness business.",
+    image: "/testimonials/maria-garcia.png"
   },
   {
     name: "Robert Kim",
     company: "Doctor, Medical Center",
-    quote: "As a physician, I value evidence-based approaches. Omar's methods are scientifically sound and highly effective."
+    quote: "As a physician, I value evidence-based approaches. Omar's methods are scientifically sound and highly effective.",
+    image: "/testimonials/robert-kim.png"
   },
   {
     name: "Jennifer Lee",
     company: "Architect, Design Firm",
-    quote: "The stress management techniques Omar taught me have improved both my health and my work performance."
+    quote: "The stress management techniques Omar taught me have improved both my health and my work performance.",
+    image: "/testimonials/jennifer-lee.png"
   },
   {
     name: "Thomas Brown",
     company: "Police Officer, City PD",
-    quote: "Omar's program helped me stay in top physical condition for my demanding job. Highly recommended!"
+    quote: "Omar's program helped me stay in top physical condition for my demanding job. Highly recommended!",
+    image: "/testimonials/thomas-brown.png"
   },
   {
     name: "Amanda Davis",
     company: "Lawyer, Legal Associates",
-    quote: "Working with Omar helped me find balance between my demanding career and personal health goals."
+    quote: "Working with Omar helped me find balance between my demanding career and personal health goals.",
+    image: "/testimonials/amanda-davis.png"
   },
   {
     name: "Christopher Martinez",
     company: "Chef, Fine Dining Restaurant",
-    quote: "Omar's nutrition advice helped me create healthier menus while maintaining the quality my customers expect."
+    quote: "Omar's nutrition advice helped me create healthier menus while maintaining the quality my customers expect.",
+    image: "/testimonials/christopher-martinez.png"
   },
   {
     name: "Rachel Green",
     company: "Yoga Instructor, Wellness Center",
-    quote: "Omar's approach complements my yoga practice perfectly. I've gained strength and flexibility I never thought possible."
+    quote: "Omar's approach complements my yoga practice perfectly. I've gained strength and flexibility I never thought possible.",
+    image: "/testimonials/rachel-green.png"
   },
   {
     name: "Daniel White",
     company: "Construction Manager, BuildCo",
-    quote: "The functional fitness program Omar designed has made my physically demanding job much easier to handle."
+    quote: "The functional fitness program Omar designed has made my physically demanding job much easier to handle.",
+    image: "/testimonials/daniel-white.png"
   },
   {
     name: "Nicole Taylor",
     company: "Real Estate Agent, Property Pro",
-    quote: "Omar helped me build the confidence and energy I needed to excel in my competitive industry."
+    quote: "Omar helped me build the confidence and energy I needed to excel in my competitive industry.",
+    image: "/testimonials/nicole-taylor.png"
   },
   {
     name: "Kevin Anderson",
     company: "Sales Director, Tech Solutions",
-    quote: "The stress management and fitness program from Omar has improved my sales performance and overall well-being."
+    quote: "The stress management and fitness program from Omar has improved my sales performance and overall well-being.",
+    image: "/testimonials/kevin-anderson.png"
   },
   {
     name: "Stephanie Clark",
     company: "Dental Hygienist, Smile Dental",
-    quote: "Omar's program helped me overcome back pain and improve my posture for my physically demanding job."
+    quote: "Omar's program helped me overcome back pain and improve my posture for my physically demanding job.",
+    image: "/testimonials/stephanie-clark.png"
   },
   {
     name: "Michael Lewis",
     company: "Financial Advisor, Wealth Management",
-    quote: "The mental clarity and energy I gained from Omar's program has directly improved my client relationships."
+    quote: "The mental clarity and energy I gained from Omar's program has directly improved my client relationships.",
+    image: "/testimonials/michael-lewis.png"
   },
   {
     name: "Jessica Hall",
     company: "Event Planner, Celebrations Inc",
-    quote: "Omar's stress management techniques have been invaluable for handling the high-pressure world of event planning."
+    quote: "Omar's stress management techniques have been invaluable for handling the high-pressure world of event planning.",
+    image: "/testimonials/jessica-hall.png"
   },
   {
     name: "Andrew Young",
     company: "Electrician, Power Solutions",
-    quote: "The strength and flexibility training from Omar has made my physically demanding job much safer and easier."
+    quote: "The strength and flexibility training from Omar has made my physically demanding job much safer and easier.",
+    image: "/testimonials/andrew-young.png"
   }
 ];
 

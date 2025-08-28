@@ -4,7 +4,8 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Card, CardContent } from "@/components/ui/card";
-import { User, Star } from "lucide-react";
+import { Star } from "lucide-react";
+import Image from "next/image";
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -13,6 +14,7 @@ interface Testimonial {
   name: string;
   company: string;
   quote: string;
+  image: string;
 }
 
 interface ScrollAnimatedTestimonialsProps {
@@ -61,8 +63,14 @@ export default function ScrollAnimatedTestimonials({ testimonials, direction, cl
             <Card key={`${direction}-${rowIndex}-${index}`} className="testimonial-card w-80 flex-shrink-0">
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
-                    <User className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+                    <Image
+                      src={testimonial.image}
+                      alt={`${testimonial.name} headshot`}
+                      width={48}
+                      height={48}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">{testimonial.name}</p>
