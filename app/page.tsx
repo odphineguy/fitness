@@ -10,6 +10,7 @@ import UnicornStudioBackground from "@/components/UnicornStudioBackground";
 import Logo from "@/components/Logo";
 import AnimatedHeadline from "@/components/AnimatedHeadline";
 import ScrollAnimatedTestimonials from "@/components/ScrollAnimatedTestimonials";
+import Image from "next/image";
 
 // Testimonials data
 const testimonials = [
@@ -316,11 +317,19 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 text-center">
-              <div className="w-32 h-32 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <User className="w-16 h-16 text-primary" />
+              <div className="relative w-full max-w-md mx-auto mb-6">
+                <Image
+                  src="/omar-with-nfl-players.png"
+                  alt="Omar with NFL players at InAction Fitness"
+                  width={400}
+                  height={300}
+                  className="rounded-2xl object-cover w-full h-auto"
+                  priority
+                />
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-2">Omar</h3>
               <p className="text-muted-foreground">Founder & Head Trainer</p>
+              <p className="text-sm text-muted-foreground mt-2">Training with professional athletes</p>
             </div>
           </div>
         </div>
