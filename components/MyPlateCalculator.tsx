@@ -18,7 +18,7 @@ export default function MyPlateCalculator() {
   const [sex, setSex] = useState("male");
   const [activity, setActivity] = useState("moderate");
   const [result, setResult] = useState<{ maintain: number; achieve: number } | null>(null);
-  const [foodGroups, setFoodGroups] = useState<Record<string, Record<string, string> & { calories: number }> | null>(null);
+  const [foodGroups, setFoodGroups] = useState<Record<string, Record<string, string | number>> | null>(null);
 
   // Activity level descriptions
   const activityDescriptions = {
