@@ -1,10 +1,10 @@
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
+import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { User, Calendar, BookOpen, Users, Sparkles, Check, Star, Award, Target, Heart, Zap, Facebook, Instagram } from "lucide-react";
+import { User, Calendar, BookOpen, Users, Sparkles, Check, Award, Target, Heart, Zap, Facebook, Instagram } from "lucide-react";
 import MyPlateCalculator from "@/components/MyPlateCalculator";
 import UnicornStudioBackground from "@/components/UnicornStudioBackground";
 import Logo from "@/components/Logo";
@@ -209,7 +209,7 @@ export default function Home() {
               Why Choose InAction Fitness?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Omar's unique approach combines cutting-edge fitness science with holistic wellness principles
+              Omar&apos;s unique approach combines cutting-edge fitness science with holistic wellness principles
             </p>
           </div>
 
@@ -515,7 +515,7 @@ export default function Home() {
             <div className="md:col-span-2">
               <Logo />
               <p className="text-muted-foreground mt-4 max-w-md">
-                Transform your body and mind with Omar's holistic approach to fitness and nutrition. 
+                Transform your body and mind with Omar&apos;s holistic approach to fitness and nutrition. 
                 Join InAction Fitness for sustainable results that last a lifetime.
               </p>
             </div>

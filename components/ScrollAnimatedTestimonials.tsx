@@ -69,9 +69,9 @@ export default function ScrollAnimatedTestimonials({ testimonials, direction, cl
                     <p className="text-sm text-muted-foreground">{testimonial.company}</p>
                   </div>
                 </div>
-                <p className="text-muted-foreground text-sm mb-4">
-                  "{testimonial.quote}"
-                </p>
+                                      <p className="text-muted-foreground text-sm mb-4">
+                        &ldquo;{testimonial.quote}&rdquo;
+                      </p>
                 <div className="flex items-center gap-1">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />

@@ -18,7 +18,7 @@ export default function MyPlateCalculator() {
   const [sex, setSex] = useState("male");
   const [activity, setActivity] = useState("moderate");
   const [result, setResult] = useState<{ maintain: number; achieve: number } | null>(null);
-  const [foodGroups, setFoodGroups] = useState<any>(null);
+  const [foodGroups, setFoodGroups] = useState<Record<string, any> | null>(null);
 
   // Activity level descriptions
   const activityDescriptions = {
@@ -28,7 +28,7 @@ export default function MyPlateCalculator() {
   };
 
   // USDA simplified breakdowns
-  const foodGroupTable: Record<number, any> = {
+  const foodGroupTable: Record<number, Record<string, string>> = {
     1800: { Fruits: "1.5 cups", Vegetables: "2.5 cups", Grains: "6 oz", Protein: "5 oz", Dairy: "3 cups" },
     2000: { Fruits: "2 cups", Vegetables: "2.5 cups", Grains: "6 oz", Protein: "5.5 oz", Dairy: "3 cups" },
     2400: { Fruits: "2 cups", Vegetables: "3 cups", Grains: "8 oz", Protein: "6.5 oz", Dairy: "3 cups" },
