@@ -63,13 +63,18 @@ export default function ScrollAnimatedTestimonials({ testimonials, direction, cl
             <Card key={`${direction}-${rowIndex}-${index}`} className="testimonial-card w-80 flex-shrink-0">
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-primary/20">
                     <Image
                       src={testimonial.image}
                       alt={`${testimonial.name} headshot`}
                       width={48}
                       height={48}
                       className="w-full h-full object-cover"
+                      unoptimized
+                      onError={(e) => {
+                        console.log(`Failed to load image: ${testimonial.image}`);
+                        e.currentTarget.style.display = 'none';
+                      }}
                     />
                   </div>
                   <div>
